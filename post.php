@@ -33,7 +33,7 @@
 	}
 	
 	// Close request to clear up resources
-	curl_close($cURL);
+	curl_close($curl);
 
 	// Echo request to get the info. If the request is not successful, this line will show nothing (optional)
   	echo "<br>Result: ".$resp."<br>";
