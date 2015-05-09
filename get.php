@@ -3,10 +3,10 @@
 	$curl = curl_init();
 
 	//Set request link to get info in a subreddit.
-	curl_setopt($cURL, CURLOPT_URL, 'API_LINK_HERE');
+	curl_setopt($curl, CURLOPT_URL, 'API_LINK_HERE');
 
 	//Setting headers.
-	curl_setopt($cURL, CURLOPT_HTTPHEADER, array(
+	curl_setopt($curl, CURLOPT_HTTPHEADER, array(
 		'Content-Type: application/json',
 		'Voat-ApiKey: API_PUBLIC_KEY_HERE',
 	));
